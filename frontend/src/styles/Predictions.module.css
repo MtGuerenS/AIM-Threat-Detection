@@ -1,0 +1,76 @@
+.container {
+    background: linear-gradient(#e78c65, #ff4e4e);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.predContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.predRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.predText {
+    color: #fae9e4;
+    width: 400px;
+}
+
+.header {
+    font-size: 30px;
+    margin-bottom: 0.2em;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    width: 3.3em;
+}
+
+.list {
+    margin-left: 1em;
+    font-size: 20px;
+}
+
+.video {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.videoContainer {
+    padding: 2em 2em;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+}
+
+.glassButton {
+    margin-top: 3em;
+    padding: 14px 17px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .glassButton:hover {
+    background-color: #ffffff7f;
+  }

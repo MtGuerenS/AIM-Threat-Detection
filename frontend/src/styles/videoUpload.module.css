@@ -1,0 +1,85 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(209, 172, 172); */
+    background: linear-gradient(#af1d97,#180330) ;
+}
+
+.container {
+    padding-top: calc(25vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fileUpload::-webkit-file-upload-button {
+    /* visibility: hidden; */
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: calc(100% - 2em);
+    height: calc(100% - 2em);
+    cursor: pointer;
+    color: transparent;
+    background-color: transparent;
+    border: 3px dashed rgba(255,255,255,0.3);
+    border-radius: 10px;
+}
+
+.fileUpload {
+    width: 0;
+    color: transparent;
+}
+
+.fileUploadContainer {
+    width: 20em;
+    height: 15em;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+}
+
+.uploadIcon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px)
+}
+
+.uploadText {
+    position: relative;
+    bottom: 3em;
+    font-size: 13px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-top: 3em;
+    padding: 14px 17px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient(#e78c65, #ff4e4e);
+    /* border: 1px solid rgba(255,255,255,0.1); */
+    border: 0;
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: linear-gradient(#ff4e4e, #ff4e4e);
+}

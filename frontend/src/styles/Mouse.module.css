@@ -1,0 +1,72 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#e78c65, #ff4e4e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.criminalContainer {
+  position: absolute;
+  top: calc(50vh - 125px);
+  left: calc(50vw - 125px);
+}
+
+.criminal {
+  width: 250px;
+  height: 250px;
+}
+
+.criminalEyes {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 90px);
+  display: flex;
+}
+
+.circle {
+  background-color: #af1d97;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 30px 0 30px;
+}
+
+.circleTest {
+  background-color: #af1d97;
+  border-radius: 50%;
+  position: absolute;
+  left: 50vw;
+  top: 287.5px;
+  width: 30px;
+  height: 30px;
+}
+
+.button {
+  margin-top: 25em;
+  padding: 5px 10px 5px 10px;
+  color: #f0e9e1;
+  background-color: #af1d97;
+  border-radius: 25px;
+  border: 0;
+}
+
+.glassButton {
+  margin-top: 30em;
+  padding: 14px 17px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255,255,255,0.8);
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.glassButton:hover {
+  background-color: #ffffff7f;
+}
